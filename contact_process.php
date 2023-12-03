@@ -29,7 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Send the email.
 if (mail($recipient, $subject, $email_content, $email_headers)) {
     // Redirect to the thank you page.
-    header("Location: https://creatematc.com/xiongk62/webdev133/beta/thank_you.html");
+    header("Location: https://nickxcode.github.io/happyacres/email.html");
     exit;
 } else {
     // Set a 500 (internal server error) response code.
